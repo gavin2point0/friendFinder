@@ -12,50 +12,50 @@
 
 <body>
     <div class="container text-center">
-            <div class="row">
-                    <div class="col">
-                        <div class="jumbotron text-center">
-                            <h1>Friend Finder</h1>
-                            <hr>
-                            <h3>Find a friend, take the survey!</h3>
-                        </div>
-                    </div>
-                </div>
         <div class="row">
             <div class="col">
-                <form action="GET">
+                <div class="jumbotron text-center">
+                    <h1>Friend Finder</h1>
+                    <hr>
+                    <h3>Find a friend, take the survey!</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <form id='survey-form' role='form'>
                     <fieldset class="form-group">
                         <div class="row">
                             <div class="col">
-                                <h3>Question</h3>
+                                <h3>How much do you like watching TV?</h3>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
+                                    <input class="form-check-input" type="radio" name="tv" id="tv-1" value="1">
+                                    <label class="form-check-label" for="tv-1">
+                                        1
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
+                                    <input class="form-check-input" type="radio" name="tv" id="tv-2" value="2">
+                                    <label class="form-check-label" for="tv-2">
+                                        2
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
+                                    <input class="form-check-input" type="radio" name="tv" id="tv-3" value="3">
+                                    <label class="form-check-label" for="tv-3">
+                                        3
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
+                                    <input class="form-check-input" type="radio" name="tv" id="tv-4" value="4">
+                                    <label class="form-check-label" for="tv-4">
+                                        4
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
+                                    <input class="form-check-input" type="radio" name="tv" id="tv-5" value="5">
+                                    <label class="form-check-label" for="tv-5">
+                                        5
                                     </label>
                                 </div>
                             </div>
@@ -64,72 +64,35 @@
                     <fieldset class="form-group">
                         <div class="row">
                             <div class="col">
-                                <h3>Question</h3>
+                                <h3>How much do you like video games?</h3>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
+                                    <input class="form-check-input" type="radio" name="video-games" id="video-games-1" value="1">
+                                    <label class="form-check-label" for="video-games-1">
+                                        1
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
+                                    <input class="form-check-input" type="radio" name="video-games" id="video-games-2" value="2">
+                                    <label class="form-check-label" for="video-games-2">
+                                        2
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
+                                    <input class="form-check-input" type="radio" name="video-games" id="video-games-3" value="3">
+                                    <label class="form-check-label" for="video-games-3">
+                                        3
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
+                                    <input class="form-check-input" type="radio" name="video-games" id="video-games-4" value="4">
+                                    <label class="form-check-label" for="video-games-4">
+                                        4
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <div class="row">
-                            <div class="col">
-                                <h3>Question</h3>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
+                                    <input class="form-check-input" type="radio" name="video-games" id="video-games-5" value="5">
+                                    <label class="form-check-label" for="video-games-5">
+                                        5
                                     </label>
                                 </div>
                             </div>
@@ -138,72 +101,35 @@
                     <fieldset class="form-group">
                         <div class="row">
                             <div class="col">
-                                <h3>Question</h3>
+                                <h3>How much do you like shopping?</h3>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
+                                    <input class="form-check-input" type="radio" name="shop" id="shop-1" value="1">
+                                    <label class="form-check-label" for="shop-1">
+                                        1
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
+                                    <input class="form-check-input" type="radio" name="shop" id="shop-2" value="2">
+                                    <label class="form-check-label" for="shop-2">
+                                        2
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
+                                    <input class="form-check-input" type="radio" name="shop" id="shop-3" value="3">
+                                    <label class="form-check-label" for="shop-3">
+                                        3
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
+                                    <input class="form-check-input" type="radio" name="shop" id="shop-4" value="4">
+                                    <label class="form-check-label" for="shop-4">
+                                        4
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <div class="row">
-                            <div class="col">
-                                <h3>Question</h3>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
+                                    <input class="form-check-input" type="radio" name="shop" id="shop-5" value="5">
+                                    <label class="form-check-label" for="shop-5">
+                                        5
                                     </label>
                                 </div>
                             </div>
@@ -212,72 +138,35 @@
                     <fieldset class="form-group">
                         <div class="row">
                             <div class="col">
-                                <h3>Question</h3>
+                                <h3>How much do you like biking</h3>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
+                                    <input class="form-check-input" type="radio" name="bike" id="bike-1" value="1">
+                                    <label class="form-check-label" for="bike-1">
+                                        1
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
+                                    <input class="form-check-input" type="radio" name="bike" id="bike-2" value="2">
+                                    <label class="form-check-label" for="bike-2">
+                                        2
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
+                                    <input class="form-check-input" type="radio" name="bike" id="bike-3" value="3">
+                                    <label class="form-check-label" for="bike-3">
+                                        3
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
+                                    <input class="form-check-input" type="radio" name="bike" id="bike-4" value="4">
+                                    <label class="form-check-label" for="bike-4">
+                                        4
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <div class="row">
-                            <div class="col">
-                                <h3>Question</h3>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
+                                    <input class="form-check-input" type="radio" name="bike" id="bike-5" value="5">
+                                    <label class="form-check-label" for="bike-5">
+                                        5
                                     </label>
                                 </div>
                             </div>
@@ -286,72 +175,35 @@
                     <fieldset class="form-group">
                         <div class="row">
                             <div class="col">
-                                <h3>Question</h3>
+                                <h3>How often do you go out?</h3>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
+                                    <input class="form-check-input" type="radio" name="going-out" id="going-out-1" value="1">
+                                    <label class="form-check-label" for="going-out-1">
+                                        1
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
+                                    <input class="form-check-input" type="radio" name="going-out" id="going-out-2" value="2">
+                                    <label class="form-check-label" for="going-out-2">
+                                        2
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
+                                    <input class="form-check-input" type="radio" name="going-out" id="going-out-3" value="3">
+                                    <label class="form-check-label" for="going-out-3">
+                                        3
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
+                                    <input class="form-check-input" type="radio" name="going-out" id="going-out-4" value="4">
+                                    <label class="form-check-label" for="going-out-4">
+                                        4
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <fieldset class="form-group">
-                        <div class="row">
-                            <div class="col">
-                                <h3>Question</h3>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
-                                    </label>
-                                </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
+                                    <input class="form-check-input" type="radio" name="going-out" id="going-out-5" value="5">
+                                    <label class="form-check-label" for="going-out-5">
+                                        5
                                     </label>
                                 </div>
                             </div>
@@ -360,48 +212,222 @@
                     <fieldset class="form-group">
                         <div class="row">
                             <div class="col">
-                                <h3>Question</h3>
+                                <h3>How often do you drink water?</h3>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
-                                    <label class="form-check-label" for="gridRadios1">
-                                        First radio
+                                    <input class="form-check-input" type="radio" name="water" id="water-1" value="1">
+                                    <label class="form-check-label" for="water-1">
+                                        1
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                    <label class="form-check-label" for="gridRadios2">
-                                        Second radio
+                                    <input class="form-check-input" type="radio" name="water" id="water-2" value="2">
+                                    <label class="form-check-label" for="water-2">
+                                        2
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
-                                    <label class="form-check-label" for="gridRadios3">
-                                        Third radio
+                                    <input class="form-check-input" type="radio" name="water" id="water-3" value="3">
+                                    <label class="form-check-label" for="water-3">
+                                        3
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fourth radio
+                                    <input class="form-check-input" type="radio" name="water" id="water-4" value="4">
+                                    <label class="form-check-label" for="water-4">
+                                        4
                                     </label>
                                 </div>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios5" value="option5">
-                                    <label class="form-check-label" for="gridRadios5">
-                                        Fifth radio
+                                    <input class="form-check-input" type="radio" name="water" id="water-5" value="5">
+                                    <label class="form-check-label" for="water-5">
+                                        5
                                     </label>
                                 </div>
                             </div>
                         </div>
                     </fieldset>
-
-
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <h3>How much do you like mexican food?</h3>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="mexican-food" id="mexican-food-1" value="1">
+                                    <label class="form-check-label" for="mexican-food-1">
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="mexican-food" id="mexican-food-2" value="2">
+                                    <label class="form-check-label" for="mexican-food-2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="mexican-food" id="mexican-food-3" value="3">
+                                    <label class="form-check-label" for="mexican-food-3">
+                                        3
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="mexican-food" id="mexican-food-4" value="4">
+                                    <label class="form-check-label" for="mexican-food-4">
+                                        4
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="mexican-food" id="mexican-food-5" value="5">
+                                    <label class="form-check-label" for="mexican-food-5">
+                                        5
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <h3>How much do you like chinese food?</h3>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="chinese-food" id="chinese-food-1" value="1">
+                                    <label class="form-check-label" for="chinese-food-1">
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="chinese-food" id="chinese-food-2" value="2">
+                                    <label class="form-check-label" for="chinese-food-2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="chinese-food" id="chinese-food-3" value="3">
+                                    <label class="form-check-label" for="chinese-food-3">
+                                        3
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="chinese-food" id="chinese-food-4" value="4">
+                                    <label class="form-check-label" for="chinese-food-4">
+                                        4
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="chinese-food" id="chinese-food-5" value="5">
+                                    <label class="form-check-label" for="chinese-food-5">
+                                        5
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <h3>How much do you like watching sports?</h3>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sports" id="sports-1" value="1">
+                                    <label class="form-check-label" for="sports-1">
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sports" id="sports-2" value="2">
+                                    <label class="form-check-label" for="sports-2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sports" id="sports-3" value="3">
+                                    <label class="form-check-label" for="sports-3">
+                                        3
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sports" id="sports-4" value="4">
+                                    <label class="form-check-label" for="sports-4">
+                                        4
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="sports" id="sports-5" value="5">
+                                    <label class="form-check-label" for="sports-5">
+                                        5
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="row">
+                            <div class="col">
+                                <h3>How much do you like pizza?</h3>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="pizza" id="pizza-1" value="1">
+                                    <label class="form-check-label" for="pizza-1">
+                                        1
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="pizza" id="pizza-2" value="2">
+                                    <label class="form-check-label" for="pizza-2">
+                                        2
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="pizza" id="pizza-3" value="3">
+                                    <label class="form-check-label" for="pizza-3">
+                                        3
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="pizza" id="pizza-4" value="4">
+                                    <label class="form-check-label" for="pizza-4">
+                                        4
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="pizza" id="pizza-5" value="5">
+                                    <label class="form-check-label" for="pizza-5">
+                                        5
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </fieldset>
                     <div class="form-group row">
                         <div class="col">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <button type="submit" class="btn btn-primary btn-submit" data-toggle="modal" data-target="#exampleModalCenter">Submit</button>
                         </div>
                     </div>
                 </form>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                            Launch demo modal
+                          </button> -->
+                          
+                          <!-- Modal -->
+                          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered" role="document">
+                              <div class="modal-content">
+                                <div class="modal-header">
+                                  <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                  </button>
+                                </div>
+                                <div class="modal-body">
+                                  
+                                </div>
+                                <div class="modal-footer">
+                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
             </div>
         </div>
     </div>
@@ -411,6 +437,53 @@
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
         crossorigin="anonymous"></script>
+
+    <script>
+
+        $(".btn-submit").on('click', function (event) {
+            event.preventDefault();
+            var userData = [''];
+
+            var tvInput = parseInt($('input[name=tv]:checked').val());
+            var videoGamesInput = parseInt($('input[name=video-games]:checked').val());
+            var shopInput = parseInt($('input[name=shop]:checked').val());
+            var bikeInput = parseInt($('input[name=bike]:checked').val());
+            var goingOutInput = parseInt($('input[name=going-out]:checked').val());
+            var waterInput = parseInt($('input[name=water]:checked').val());
+            var mexicanFoodInput = parseInt($('input[name=mexican-food]:checked').val());
+            var chineseFoodInput = parseInt($('input[name=chinese-food]:checked').val());
+            var sportsInput = parseInt($('input[name=sports]:checked').val());
+            var pizzaInput = parseInt($('input[name=pizza]:checked').val());
+
+            userData[0] = tvInput;
+            userData.push(videoGamesInput)
+            userData.push(shopInput)
+            userData.push(bikeInput)
+            userData.push(goingOutInput)
+            userData.push(waterInput)
+            userData.push(mexicanFoodInput)
+            userData.push(chineseFoodInput)
+            userData.push(sportsInput)
+            userData.push(pizzaInput);
+
+            var user = {
+                'name': 'user',
+                'photo': 'N/A',
+                'scores': userData
+            }
+            
+            $.post("/api/friends", user)
+                .done(function (data) {
+                    console.log(data);
+                    
+                    $('.modal-title').text(`Your new best friend is ${data.matchName}`)
+                    $('.modal-body').html(`<img src="${data.matchImage}" alt="new-best-friend" height="200">`)
+
+                });
+
+        })
+
+    </script>
 </body>
 
 </html>

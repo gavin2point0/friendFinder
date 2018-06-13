@@ -1,7 +1,7 @@
 var friends = [
     {
         "name": 'Bill',
-        "photo": 'media/bill.jpg',
+        "photo": '/bill.jpg',
         "scores": [
             1,
             5,
@@ -17,7 +17,7 @@ var friends = [
     },
     {
         "name": 'Cindy',
-        "photo": 'media/cindy.jpg',
+        "photo": '/cindy.jpg',
         "scores": [
             4,
             3,
@@ -33,7 +33,7 @@ var friends = [
     },
     {
         "name": 'Android 243',
-        "photo": 'media/android243.jpg',
+        "photo": '/android243.jpg',
         "scores": [
             3,
             2,
@@ -49,7 +49,7 @@ var friends = [
     },
     {
         "name": 'Tom',
-        "photo": 'media/tom.jpg',
+        "photo": '/tom.jpg',
         "scores": [
             4,
             5,
